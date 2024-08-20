@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKSHAY VEGETABLE FARM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+        }
+        header {
+            background-color: #00796b;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #004d40;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        footer {
+            background-color: #00796b;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .photo {
+            max-width: 100%;
+            height: auto;
+        }
+        form {
+            margin: 20px 0;
+        }
+        form input, form textarea {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form input[type="submit"] {
+            background-color: #00796b;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        form input[type="submit"]:hover {
+            background-color: #004d40;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AKSHAY VEGETABLE FARM</h1>
+        <p>Providing the freshest vegetables from our farm to your table</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#vegetables">Our Vegetables</a>
+        <a href="#quality">Quality</a>
+        <a href="#complaints">Complaints</a>
+        <a href="#order">Order</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <main>
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>Welcome to AKSHAY VEGETABLE FARM! Located in Kapilvastu Municipality, Ward No 9, Kapilvastu District, Nepal, we pride ourselves on growing the finest, organic vegetables. Our farm is managed by Akshay Kumar Barai, who is dedicated to ensuring that each product meets the highest standards of quality. We use sustainable farming practices to enrich the soil and ensure our vegetables are fresh and nutritious.</p>
+            <img src="your-farm-photo.jpg" alt="Farm Photo" class="photo">
+        </section>
+        <section id="vegetables" class="section">
+            <h2>Our Vegetables</h2>
+            <p>At AKSHAY VEGETABLE FARM, we grow a diverse range of vegetables to cater to all your needs. Our offerings include:</p>
+            <ul>
+                <li><strong>Tomatoes</strong> - Juicy, ripe, and full of flavor, perfect for salads and cooking.</li>
+                <li><strong>Carrots</strong> - Crisp and sweet, great for snacking or adding crunch to dishes.</li>
+                <li><strong>Potatoes</strong> - Versatile and hearty, suitable for baking, boiling, and frying.</li>
+                <li><strong>Lettuce</strong> - Fresh and crunchy, ideal for salads and sandwiches.</li>
+                <li><strong>Bell Peppers</strong> - Colorful and versatile, great for stir-fries, salads, and grilling.</li>
+                <li><strong>Cucumbers</strong> - Refreshing and hydrating, perfect for salads and pickles.</li>
+                <li><strong>Spinach</strong> - Nutrient-rich and leafy, ideal for smoothies, salads, and cooking.</li>
+                <li><strong>Onions</strong> - Essential for flavoring, whether caramelized, raw, or cooked.</li>
+                <li><strong>Radishes</strong> - Spicy and crunchy, great for adding zest to salads.</li>
+                <li><strong>Beans</strong> - Tender and protein-rich, excellent for soups, stews, and stir-fries.</li>
+            </ul>
+        </section>
+        <section id="quality" class="section">
+            <h2>Our Quality</h2>
+            <p>Our commitment to quality is at the heart of everything we do. At AKSHAY VEGETABLE FARM, we ensure that our vegetables are grown without harmful chemicals, maintaining their natural flavor and nutritional value. We focus on sustainable practices, including organic fertilizers and natural pest control, to enhance soil health and produce high-quality vegetables. Our rigorous quality control ensures that every vegetable meets our standards before it reaches your table.</p>
+        </section>
+        <section id="complaints" class="section">
+            <h2>Complaints</h2>
+            <p>Your satisfaction is important to us. If you have any issues or concerns regarding our products, please let us know. We are committed to addressing any problems promptly and ensuring you have a positive experience with our farm.</p>
+            <form action="mailto:akshaybarai112@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <input type="submit" value="Submit Complaint">
+            </form>
+        </section>
+        <section id="order" class="section">
+            <h2>Order</h2>
+            <p>To place an order for our fresh vegetables, please provide the following information. We will get back to you with confirmation and delivery details.</p>
+            <form action="mailto:akshaybarai112@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone" required>
+                <label for="vegetables">Vegetables Required:</label>
+                <textarea id="vegetables" name="vegetables" rows="4" required></textarea>
+                <input type="submit" value="Place Order">
+            </form>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need further information, feel free to reach out to us. We are here to assist you with any inquiries you may have.</p>
+            <p>Email: <a href="mailto:akshaybarai112@gmail.com">akshaybarai112@gmail.com</a></p>
+            <p>Phone: +977 9845312029</p>
+            <p>Address: Kapilvastu Municipality, Ward No 9, Kapilvastu District, Nepal</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 AKSHAY VEGETABLE FARM</p>
+    </footer>
+</body>75081974
+</html>
+"
